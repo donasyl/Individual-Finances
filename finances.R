@@ -42,7 +42,7 @@ p <-ggplot(data = cleaned_finances) +
   )
 
 p_fig <- ggplotly(p)
-saveWidget(p1_fig, "expenses_by_category.html", selfcontained = TRUE)
+saveWidget(p_fig, "expenses_by_category.html", selfcontained = TRUE)
 
 
 # Baxplot for Income/Expense by Amount 
